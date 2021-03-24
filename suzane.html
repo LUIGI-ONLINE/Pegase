@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+
+  </head>
+  <body>
+
+    <a-scene>
+      <a-assets>
+         <a-asset-item id="suzanne" src="pegase.gltf"></a-asset-item>
+        </a-assets>
+
+<a-entity gltf-model="#suzanne" position="0 2 -4">
+</a-entity>
+
+
+
+     <a-plane position="0 0 -4"
+       rotation="-90 0 0"
+       width="4"
+       height="4"
+>
+
+       </a-plane>
+     <a-camera></a-camera>
+</a-scene>
+
+  </body>
+</html>
